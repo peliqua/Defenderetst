@@ -18,3 +18,4 @@ if grep -q '"passiveMode":true' "$CONFIG_FILE"; then
     echo "Defender mode updated to active."
 else
     echo "Defender is already in active mode."
+fi
