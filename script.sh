@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE="/etc/opt/microsoft/mdatp/managed/mdatp-managed.json"
+CONFIG_FILE="/etc/opt/microsoft/mdatp/managed/mdatp_managed.json"
 
 # Check if the file exists
 if [ ! -f "$CONFIG_FILE" ]; then
